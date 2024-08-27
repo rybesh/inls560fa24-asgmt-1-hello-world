@@ -1,0 +1,15 @@
+// For format details, see https://aka.ms/devcontainer.json
+// For config options, see the README at https://github.com/devcontainers/templates/tree/main/src/python
+{
+    "name": "Python 3",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    "postCreateCommand": "make setup",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
+            ]
+        }
+    }
+}

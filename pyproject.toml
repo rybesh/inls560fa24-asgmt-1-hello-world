@@ -1,0 +1,13 @@
+[project]
+name = "hello_world"
+version = "2024.0.1"
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.pyright]
+venv = "venv"
+venvPath = "."
+pythonVersion = "3.12"
